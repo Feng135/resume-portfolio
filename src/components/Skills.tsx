@@ -34,9 +34,29 @@ const Skills: React.FC = () => {
       description: "Cloud Infrastructure, Cybersecurity, Network Security, IoT"
     },
     {
-      name: "Simulation & Tools",
-      icon: "⚙️",
-      description: "NetSim, Network Simulation, System Design, Testing"
+      name: "Hardware & Systems",
+      icon: "🔧",
+      description: "Computer hardware assembly, troubleshooting, component upgrades, system optimization"
+    },
+    {
+      name: "Microsoft Office Suite",
+      icon: "📊",
+      description: "Advanced Word, Excel, PowerPoint proficiency for business documentation"
+    },
+    {
+      name: "Project Management",
+      icon: "📋",
+      description: "Agile methodology, project planning, team coordination, workflow optimization"
+    },
+    {
+      name: "Communication Skills",
+      icon: "🗣️",
+      description: "Written & verbal communication, reporting, document composition, presentations"
+    },
+    {
+      name: "Interpersonal Skills",
+      icon: "🤝",
+      description: "Customer service excellence, team collaboration, stakeholder management"
     }
   ];
 

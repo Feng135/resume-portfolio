@@ -12,6 +12,13 @@ interface Project {
 const Projects: React.FC = () => {
   const projects: Project[] = [
     {
+      title: "Home Server Infrastructure",
+      description: "Built and configured a personal home server for media streaming, file storage, and network services. Implemented security measures and automated backup solutions.",
+      technologies: ["Linux", "Docker", "Networking", "System Administration"],
+      image: "Home Server",
+      githubUrl: "https://github.com/fengwei/home-server-config"
+    },
+    {
       title: "Microservices Bike Rental System",
       description: "Designed and implemented a distributed bike rental system using microservices architecture, demonstrating scalable system design and inter-service communication.",
       technologies: ["Python", "Microservices", "Distributed Systems", "API Design"],
@@ -31,13 +38,6 @@ const Projects: React.FC = () => {
       technologies: ["NetSim", "IoT", "Network Simulation", "Performance Analysis"],
       image: "Smart Office Network",
       githubUrl: "https://github.com/fengwei/smart-office-simulation"
-    },
-    {
-      title: "Network Security Lab Projects",
-      description: "Completed various network security implementations including firewall configurations, intrusion detection systems, and vulnerability assessments.",
-      technologies: ["Cisco Packet Tracer", "Network Security", "Firewall", "IDS"],
-      image: "Security Projects",
-      githubUrl: "https://github.com/fengwei/network-security-labs"
     }
   ];
 

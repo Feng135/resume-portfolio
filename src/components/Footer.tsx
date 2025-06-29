@@ -17,9 +17,6 @@ const Footer: React.FC = () => {
             <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" title="LinkedIn">
               💼
             </a>
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" title="Twitter">
-              🐦
-            </a>
             <a href="mailto:your.email@example.com" title="Email">
               ✉️
             </a>
